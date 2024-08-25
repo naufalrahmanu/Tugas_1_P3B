@@ -13,7 +13,7 @@
         android:id="@+id/textViewLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/logintitle"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -23,7 +23,7 @@
         android:id="@+id/editTextUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
+        android:hint="@string/username"
         android:backgroundTint="@android:color/darker_gray"
         android:layout_marginBottom="16dp"
         android:padding="12dp"/>
@@ -32,7 +32,7 @@
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="@string/password"
         android:backgroundTint="@android:color/darker_gray"
         android:layout_marginBottom="24dp"
         android:padding="12dp"
@@ -42,7 +42,7 @@
         android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/login"
         android:backgroundTint="#5469ff"
         android:textColor="@android:color/white"
         android:layout_marginBottom="16dp"/>
@@ -51,7 +51,20 @@
         android:id="@+id/textViewRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Member? Register"
-        android:textColor="#5469ff"/>
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="35dp"
+        android:layout_gravity="center"
+        android:text="@string/new_member"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textViewbaru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-20dp"
+        android:text="@string/register"
+        android:textColor="#5469ff" />
 
 </LinearLayout>

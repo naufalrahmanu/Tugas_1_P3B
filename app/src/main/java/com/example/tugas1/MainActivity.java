@@ -17,13 +17,12 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextPassword = findViewById(R.id.editTextPassword);
         Button buttonLogin = findViewById(R.id.buttonLogin);
         TextView textViewRegister = findViewById(R.id.textViewRegister);
+        TextView textViewregister = findViewById(R.id.textViewbaru);
 
         buttonLogin.setOnClickListener(v -> {
-            // Handle login logic here
         });
 
-        textViewRegister.setOnClickListener(v -> {
-            // Handle registration logic here
+        textViewregister.setOnClickListener(v -> {
         });
     }
 }
